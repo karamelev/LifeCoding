@@ -10,6 +10,7 @@ public class task_stream {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 //        numbers.stream().filter( e-> e % 2 != 0).sorted(Comparator.reverseOrder()).map(x -> x + ",").forEach(System.out::print);
         int min = numbers.stream().min(Integer::compare).get();
+
         System.out.println(min);
         int max = numbers.stream().max(Integer::compare).get();
         System.out.println(max);

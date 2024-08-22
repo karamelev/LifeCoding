@@ -6,7 +6,9 @@ import java.util.stream.IntStream;
 
 public class Reverse {
     // поворот строки
-    // Развернуть произвольную строку без использования методов типа reverse() и split() и при этом используя один массив
+    // Развернуть произвольную строку
+    // без использования методов типа reverse() и split()
+    // и при этом используя один массив
 
     public static void main(String[] args) {
 
@@ -21,7 +23,9 @@ public class Reverse {
 //        System.out.println("Original string: " + str);
 //        System.out.println("Reversed string: " + reversedString);
 //
-//        String str2 = "Перевернуть строку, изменив расположение символов в строке задом наперёд без использования встроенной в String функции reverse().";
+//        String str2 = "Перевернуть строку, изменив расположение символов
+//        в строке задом наперёд без использования встроенной
+//        в String функции reverse().";
 //        System.out.println(revertStr2(str2));
 
         String str1 = " Hello, world! ";
